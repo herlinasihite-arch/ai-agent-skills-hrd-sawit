@@ -106,3 +106,22 @@ Penting: Kriteria di atas adalah hasil yang diharapkan. Isi status pengujian ber
 **Status:** LULUS berdasarkan skenario pengujian.
 
 **Catatan:** Pengujian menggunakan data simulasi, bukan data karyawan perusahaan sebenarnya.
+
+### Pengujian 3 – Recruitment Admin Checker
+
+**Tujuan:** Menguji kemampuan AI Agent dalam memeriksa kelengkapan dokumen administrasi pelamar kerja.
+
+**Data pengujian:** Simulasi pelamar dengan kode PLM-001 untuk posisi Staf Administrasi Kebun.
+
+**Hasil pengujian:**
+- Jumlah persyaratan yang diperiksa: 4.
+- CV tersedia.
+- Ijazah belum diserahkan.
+- Pengalaman administrasi selama satu tahun tercantum dalam CV.
+- Kemampuan Microsoft Excel tercantum dalam CV dan memerlukan verifikasi.
+
+**Evaluasi:** AI Agent berhasil mencocokkan persyaratan posisi dengan dokumen dan informasi yang diberikan. AI juga mengidentifikasi dokumen yang belum tersedia serta memberikan rekomendasi tindak lanjut kepada HRD.
+
+**Status:** LULUS berdasarkan skenario pengujian.
+
+**Catatan:** Pengujian menggunakan data simulasi. AI Agent tidak membuat skor otomatis maupun keputusan penerimaan atau penolakan pelamar.
