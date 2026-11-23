@@ -1,0 +1,5 @@
+employee_code,date,shift_start,clock_in,clock_out,status
+KRY-001,2026-10-01,07:00,06:56,15:02,HADIR
+KRY-002,2026-10-01,07:00,07:18,15:04,HADIR
+KRY-003,2026-10-01,07:00,,,UNKNOWN
+KRY-004,2026-10-01,07:00,07:02,,HADIR
