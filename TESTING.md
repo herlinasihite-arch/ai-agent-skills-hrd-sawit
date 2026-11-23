@@ -68,13 +68,14 @@ Memeriksa apakah setiap skill mengikuti input, langkah kerja, format output, dan
 | 5 | hr-monthly-report | Isi setelah uji | Isi temuan |
 
 Penting: Kriteria di atas adalah hasil yang diharapkan. Isi status pengujian berdasarkan hasil aktual setelah kamu menjalankan masing-masing skill, jangan mengklaim sudah lulus sebelum diuji.
- Pengujian 1 – Attendance Recap
 
-Tujuan: Menguji kemampuan AI Agent dalam membuat rekap absensi dan mendeteksi data yang tidak lengkap.
+### Pengujian 1 – Attendance Recap
 
-Data pengujian: Empat catatan absensi karyawan pada 1 Oktober 2026.
+**Tujuan:** Menguji kemampuan AI Agent dalam membuat rekap absensi dan mendeteksi data yang tidak lengkap.
 
-Hasil pengujian:
+**Data pengujian:** Empat catatan absensi karyawan pada 1 Oktober 2026.
+
+**Hasil pengujian:**
 - Total catatan: 4.
 - Karyawan unik: 4.
 - Status HADIR: 3.
@@ -82,8 +83,26 @@ Hasil pengujian:
 - KRY-003 teridentifikasi memiliki jam masuk dan jam pulang kosong.
 - KRY-004 teridentifikasi memiliki jam pulang kosong.
 
-Evaluasi: AI Agent berhasil menghitung data absensi, mengidentifikasi data tidak lengkap, dan memberikan rekomendasi verifikasi kepada HRD.
+**Evaluasi:** AI Agent berhasil menghitung data absensi, mengidentifikasi data tidak lengkap, dan memberikan rekomendasi verifikasi kepada HRD.
 
-Status: LULUS berdasarkan skenario pengujian.
+**Status:** LULUS berdasarkan skenario pengujian.
 
-Catatan: Pengujian menggunakan data simulasi, bukan data karyawan perusahaan sebenarnya.
+**Catatan:** Pengujian menggunakan data simulasi, bukan data karyawan perusahaan sebenarnya.
+
+### Pengujian 2 – Leave Request Checker
+
+**Tujuan:** Menguji kemampuan AI Agent dalam memeriksa kelengkapan administratif pengajuan cuti karyawan.
+
+**Data pengujian:** Simulasi pengajuan cuti tahunan karyawan KRY-005 untuk periode 25–27 November 2026.
+
+**Hasil pengujian:**
+- Kode karyawan dan jenis pengajuan berhasil diidentifikasi.
+- Tanggal pengajuan, tanggal mulai, dan tanggal selesai tersedia.
+- Formulir pengajuan tersedia.
+- Kebijakan cuti dan saldo cuti resmi belum diberikan sehingga belum dapat diverifikasi.
+
+**Evaluasi:** AI Agent berhasil mengidentifikasi informasi yang tersedia dan belum tersedia serta memberikan rekomendasi tindak lanjut kepada HRD tanpa menyetujui atau menolak pengajuan cuti.
+
+**Status:** LULUS berdasarkan skenario pengujian.
+
+**Catatan:** Pengujian menggunakan data simulasi, bukan data karyawan perusahaan sebenarnya.
