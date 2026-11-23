@@ -67,4 +67,23 @@ Memeriksa apakah setiap skill mengikuti input, langkah kerja, format output, dan
 | 4 | onboarding-checklist | Isi setelah uji | Isi temuan |
 | 5 | hr-monthly-report | Isi setelah uji | Isi temuan |
 
-**Penting:** Kriteria di atas adalah hasil yang diharapkan. Isi status pengujian berdasarkan hasil aktual setelah kamu menjalankan masing-masing skill, jangan mengklaim sudah lulus sebelum diuji.
+Penting: Kriteria di atas adalah hasil yang diharapkan. Isi status pengujian berdasarkan hasil aktual setelah kamu menjalankan masing-masing skill, jangan mengklaim sudah lulus sebelum diuji.
+ Pengujian 1 – Attendance Recap
+
+Tujuan: Menguji kemampuan AI Agent dalam membuat rekap absensi dan mendeteksi data yang tidak lengkap.
+
+Data pengujian: Empat catatan absensi karyawan pada 1 Oktober 2026.
+
+Hasil pengujian:
+- Total catatan: 4.
+- Karyawan unik: 4.
+- Status HADIR: 3.
+- Status UNKNOWN: 1.
+- KRY-003 teridentifikasi memiliki jam masuk dan jam pulang kosong.
+- KRY-004 teridentifikasi memiliki jam pulang kosong.
+
+Evaluasi: AI Agent berhasil menghitung data absensi, mengidentifikasi data tidak lengkap, dan memberikan rekomendasi verifikasi kepada HRD.
+
+Status: LULUS berdasarkan skenario pengujian.
+
+Catatan: Pengujian menggunakan data simulasi, bukan data karyawan perusahaan sebenarnya.
