@@ -125,3 +125,23 @@ Penting: Kriteria di atas adalah hasil yang diharapkan. Isi status pengujian ber
 **Status:** LULUS berdasarkan skenario pengujian.
 
 **Catatan:** Pengujian menggunakan data simulasi. AI Agent tidak membuat skor otomatis maupun keputusan penerimaan atau penolakan pelamar.
+
+### Pengujian 4 – Onboarding Checklist
+
+**Tujuan:** Menguji kemampuan AI Agent dalam menyusun checklist administrasi dan orientasi karyawan baru.
+
+**Data pengujian:** Simulasi karyawan KRY-010 dengan jabatan Staf Administrasi Kebun di Unit Kebun A dan tanggal mulai bekerja 1 Desember 2026.
+
+**Hasil pengujian:**
+- AI berhasil menyusun checklist sebelum hari pertama.
+- AI menyusun kegiatan pada hari pertama.
+- AI membuat daftar kegiatan orientasi kerja.
+- AI menyusun tindak lanjut minggu pertama.
+- AI memberikan usulan penanggung jawab untuk setiap kegiatan.
+- AI mengidentifikasi SOP onboarding dan prosedur K3 yang belum diberikan.
+
+**Evaluasi:** AI Agent berhasil menghasilkan checklist onboarding yang terstruktur dan memberikan informasi mengenai hal-hal yang perlu dikonfirmasi HRD.
+
+**Status:** LULUS berdasarkan skenario pengujian.
+
+**Catatan:** Pengujian menggunakan data simulasi. Checklist merupakan alat bantu dan pelaksanaannya tetap harus dikonfirmasi HRD serta pihak terkait.
