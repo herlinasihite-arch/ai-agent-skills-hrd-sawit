@@ -145,3 +145,32 @@ Penting: Kriteria di atas adalah hasil yang diharapkan. Isi status pengujian ber
 **Status:** LULUS berdasarkan skenario pengujian.
 
 **Catatan:** Pengujian menggunakan data simulasi. Checklist merupakan alat bantu dan pelaksanaannya tetap harus dikonfirmasi HRD serta pihak terkait.
+
+### 5. Pengujian HR Monthly Report
+
+**Tujuan Pengujian**
+
+Menguji kemampuan HR Monthly Report dalam menyusun draf laporan HRD bulanan berdasarkan data agregat, memeriksa konsistensi angka, menghitung metrik yang memiliki dasar perhitungan, dan menandai data yang belum tersedia.
+
+**Skenario Pengujian**
+
+Pengujian menggunakan data simulasi bulan November 2026 yang mencakup data headcount, absensi, cuti, rekrutmen, dan onboarding pada dua unit kebun.
+
+**Hasil yang Diharapkan**
+
+1. AI dapat menghitung total headcount awal sebanyak 150 karyawan dan headcount akhir sebanyak 153 karyawan.
+2. AI dapat memeriksa konsistensi perubahan headcount dengan rumus karyawan awal + karyawan masuk − karyawan keluar.
+3. AI dapat menghitung persentase kehadiran sebesar 95% berdasarkan data yang diberikan.
+4. AI dapat merangkum data cuti, rekrutmen, dan onboarding.
+5. AI dapat menandai tidak tersedianya data pembanding bulan sebelumnya.
+6. AI tidak mengarang angka atau membuat keputusan kepegawaian.
+
+**Hasil Pengujian**
+
+Diisi berdasarkan hasil aktual setelah prompt pengujian dijalankan. Periksa apakah AI menghasilkan ringkasan eksekutif, tabel indikator, catatan kualitas data, dan tindak lanjut yang disarankan.
+
+**Kesimpulan**
+
+Pengujian dinyatakan lulus apabila seluruh perhitungan sesuai dengan data simulasi, ketidaksesuaian atau keterbatasan data ditandai dengan benar, dan AI mengikuti batasan dalam HR Monthly Report Skill.
+
+**Catatan:** Pengujian dilakukan secara manual menggunakan data simulasi melalui AI. Hasilnya merupakan draf yang tetap memerlukan pemeriksaan dan pengesahan petugas HRD.
